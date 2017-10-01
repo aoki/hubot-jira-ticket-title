@@ -1,0 +1,29 @@
+{
+  "name": "hubot-jira-ticket-title",
+  "version": "1.0.0",
+  "description": "Hubot script that display title of JIRA ticket.",
+  "main": "index.js",
+  "file": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ringohub/hubot-jira-ticket-title.git"
+  },
+  "keywords": [
+    "hubot"
+  ],
+  "author": "aoki <ringohub@gmail.com> (https://github.com/ringohub)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ringohub/hubot-jira-ticket-title/issues"
+  },
+  "homepage": "https://github.com/ringohub/hubot-jira-ticket-title#readme",
+  "dependencies": {
+    "isomorphic-fetch": "2.2.1",
+    "lodash.isundefined": "3.0.1"
+  }
+}

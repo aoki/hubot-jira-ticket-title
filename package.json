@@ -1,10 +1,11 @@
 {
   "name": "hubot-jira-ticket-title",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hubot script that display title of JIRA ticket.",
   "main": "index.js",
   "file": [
-    "index.js"
+    "index.js",
+    "scripts"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

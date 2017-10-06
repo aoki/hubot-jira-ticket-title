@@ -1,6 +1,6 @@
 {
   "name": "hubot-jira-ticket-title",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Hubot script that display title of JIRA ticket.",
   "main": "index.js",
   "file": [

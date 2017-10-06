@@ -8,9 +8,9 @@ Hubot> > EXAMPLE-123: Create example hubot script
 ```
 
 ## Configurations
-- `JIRA_URL`: JIRA base URL(ex. `${JIRA_URL}/browse` and `${JIRA_URL}/rest/api/2/issue`)
-- `JIRA_USER`: JIRA username
-- `JIRA_PASSWORD`: JIRA password
+- `HUBOT_JIRA_URL`: JIRA base URL(ex. `${HUBOT_JIRA_URL}/browse` and `${HUBOT_JIRA_URL}/rest/api/2/issue`)
+- `HUBOT_JIRA_USER`: JIRA username
+- `HUBOT_JIRA_PASSWORD`: JIRA password
 
 ## How to Install
 1. `npm i hubot-jira-ticket-title`

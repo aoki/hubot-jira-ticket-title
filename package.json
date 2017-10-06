@@ -8,8 +8,11 @@
     "scripts"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "xo --fix"
+    "test": "npm run lint",
+    "lint": "xo --fix",
+    "precommit": "npm run test",
+    "preversion": "npm run test",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
